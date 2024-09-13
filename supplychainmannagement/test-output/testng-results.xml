@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-13T22:43:17 IST" name="Suite" finished-at="2024-09-13T22:43:27 IST" duration-ms="10638">
+    <groups>
+      <group name="regression">
+        <method signature="AddManageCategoryTest.manageUnitTest()[pri:0, instance:com.madhav.manufacturer.AddManageCategoryTest@7674f035]" name="manageUnitTest" class="com.madhav.manufacturer.AddManageCategoryTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginAsReatilerTest.LoginAsReatilerTest()[pri:0, instance:com.madhav.retailerTest.LoginAsReatilerTest@78e4deb0]" name="LoginAsReatilerTest" class="com.madhav.retailerTest.LoginAsReatilerTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-09-13T22:43:17 IST" name="Test" finished-at="2024-09-13T22:43:27 IST" duration-ms="10638">
+      <class name="com.madhav.retailerTest.LoginAsReatilerTest">
+        <test-method is-config="true" signature="configBs()[pri:0, instance:com.madhav.retailerTest.LoginAsReatilerTest@78e4deb0]" started-at="2024-09-13T22:43:17 IST" name="configBs" finished-at="2024-09-13T22:43:17 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBs -->
+        <test-method is-config="true" signature="configBc()[pri:0, instance:com.madhav.retailerTest.LoginAsReatilerTest@78e4deb0]" started-at="2024-09-13T22:43:17 IST" name="configBc" finished-at="2024-09-13T22:43:19 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBc -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.madhav.retailerTest.LoginAsReatilerTest@78e4deb0]" started-at="2024-09-13T22:43:19 IST" name="configBm" finished-at="2024-09-13T22:43:21 IST" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method signature="LoginAsReatilerTest()[pri:0, instance:com.madhav.retailerTest.LoginAsReatilerTest@78e4deb0]" started-at="2024-09-13T22:43:21 IST" name="LoginAsReatilerTest" finished-at="2024-09-13T22:43:22 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAsReatilerTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.madhav.retailerTest.LoginAsReatilerTest@78e4deb0]" started-at="2024-09-13T22:43:22 IST" name="configAm" finished-at="2024-09-13T22:43:22 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configAc()[pri:0, instance:com.madhav.retailerTest.LoginAsReatilerTest@78e4deb0]" started-at="2024-09-13T22:43:22 IST" name="configAc" finished-at="2024-09-13T22:43:22 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAc -->
+        <test-method is-config="true" signature="configAs()[pri:0, instance:com.madhav.retailerTest.LoginAsReatilerTest@78e4deb0]" started-at="2024-09-13T22:43:27 IST" name="configAs" finished-at="2024-09-13T22:43:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAs -->
+      </class> <!-- com.madhav.retailerTest.LoginAsReatilerTest -->
+      <class name="com.madhav.manufacturer.AddManageCategoryTest">
+        <test-method is-config="true" signature="configBc()[pri:0, instance:com.madhav.manufacturer.AddManageCategoryTest@7674f035]" started-at="2024-09-13T22:43:22 IST" name="configBc" finished-at="2024-09-13T22:43:23 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBc -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.madhav.manufacturer.AddManageCategoryTest@7674f035]" started-at="2024-09-13T22:43:23 IST" name="configBm" finished-at="2024-09-13T22:43:25 IST" duration-ms="2262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method signature="manageUnitTest()[pri:0, instance:com.madhav.manufacturer.AddManageCategoryTest@7674f035]" started-at="2024-09-13T22:43:25 IST" name="manageUnitTest" finished-at="2024-09-13T22:43:27 IST" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageUnitTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.madhav.manufacturer.AddManageCategoryTest@7674f035]" started-at="2024-09-13T22:43:27 IST" name="configAm" finished-at="2024-09-13T22:43:27 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configAc()[pri:0, instance:com.madhav.manufacturer.AddManageCategoryTest@7674f035]" started-at="2024-09-13T22:43:27 IST" name="configAc" finished-at="2024-09-13T22:43:27 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAc -->
+      </class> <!-- com.madhav.manufacturer.AddManageCategoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
