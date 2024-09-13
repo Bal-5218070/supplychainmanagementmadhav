@@ -1,4 +1,4 @@
-package com.madhavListenerUtility;
+package com.madhav.ListenerUtility;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
