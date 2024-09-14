@@ -24,6 +24,7 @@ import com.madhav.objectrepository.LoginPage;
 public class BaseClass {
 
 	public WebDriver driver = null;
+	public static  WebDriver sdriver =null; 
 
 	public FileUtility futil = new FileUtility();
 	public ExcelUtilty eutil = new ExcelUtilty();
@@ -48,6 +49,7 @@ public class BaseClass {
 		} else {
 			driver = new ChromeDriver();
 		}
+		sdriver=driver;
 	}
 
 	@BeforeMethod(groups = {"smoke","regression"})

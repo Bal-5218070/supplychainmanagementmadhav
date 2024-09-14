@@ -3,6 +3,7 @@ package com.madhav.manufacturer;
 import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.internal.invokers.AbstractParallelWorker.Arguments;
 
@@ -14,7 +15,9 @@ import com.madhav.objectrepository.HomePage;
 import com.madhav.objectrepository.LoginPage;
 import com.madhav.objectrepository.ViewCategoryPage;
 import com.madhav.objectrepository.ViewUnitPage;
-
+@Listeners(com.madhav.ListenerUtility.ListenerImpClass.class)
+//we cannot run here directly 
+//for this we have to make listenertestng class for failed testcase
 public class AddManageCategoryTest extends BaseClass {
 @Test(groups = "smoke")
 public void addManageCategoryTest() throws Throwable {
