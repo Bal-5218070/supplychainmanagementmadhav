@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.madhav.retailerTest.AddManageCategoryTest">
+      <class name="com.madhav.manufacturer.AddManageCategoryTest">
         <methods>
           <include name="configAm"/>
+          <include name="manageUnitTest"/>
           <include name="configBm"/>
-          <include name="addManageCategoryTest"/>
           <include name="configAc"/>
           <include name="configAs"/>
           <include name="configBc"/>
           <include name="configBs"/>
         </methods>
-      </class> <!-- com.madhav.retailerTest.AddManageCategoryTest -->
+      </class> <!-- com.madhav.manufacturer.AddManageCategoryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

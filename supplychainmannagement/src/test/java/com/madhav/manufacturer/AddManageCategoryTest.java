@@ -1,8 +1,11 @@
 package com.madhav.manufacturer;
 
+import static org.testng.Assert.fail;
+
 import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.internal.invokers.AbstractParallelWorker.Arguments;
@@ -45,8 +48,10 @@ public void manageUnitTest() throws IOException {
 	String Password = futil.getDataFromPropertyFile("adminpassword");
 	lp.loginForAdmin(Username, Password);
 
+	
+	
 	HomePage page =new HomePage(driver);
-	page.getManageunitlink().click();
+	page.getManageunitlink().click();;
 	
 	ViewUnitPage vup =new ViewUnitPage(driver);
 	vup.getAddunitbutton().click();

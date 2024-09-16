@@ -28,12 +28,11 @@ public class ListenerImpClass implements ITestListener,ISuiteListener{
 	@Override
 	public void onStart(ISuite suite) {
 		// TODO Auto-generated method stub
-				//System.out.println("reportconfiguration");
-				test.log(Status.INFO, "reportconfiguratin");
+				System.out.println("reportconfiguration");
+				//test.log(Status.INFO, "reportconfiguratin");
 				String time = new Date().toString().replace(" ", "_").replace(":", "_");
 				//spark report config
 				 spark =new ExtentSparkReporter("./AdvanceReport/report_"+time+".html");
-					spark.config().setDocumentTitle("CRM TEst Suite results");//what should be title of page
 					spark.config().setReportName("CRM report");
 					spark.config().setTheme(Theme.DARK);
 
